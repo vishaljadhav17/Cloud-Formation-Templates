@@ -2,6 +2,6 @@ Resources:
   MyS3bucket:
     Type: 'AWS::S3::Bucket'
     Properties: 
-       Bucketname: Mys3buket1780 #nameshouldbeunique
+       BucketName: Mys3buket1780 #nameshouldbeunique
        VersioningConfiguration:
         Status: Enabled
